@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "LearnDX12.h"
+#include <d3d12.h>
 
 #define MAX_LOADSTRING 100
 
