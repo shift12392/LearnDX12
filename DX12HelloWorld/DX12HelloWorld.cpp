@@ -1,7 +1,7 @@
 ﻿// DX12HelloWorld.cpp : 定义应用程序的入口点。
 //
 
-#include "stdafx.h"
+//#include "stdafx.h"
 #include "DX12HelloWorld.h"
 #include <d3d12.h>
 

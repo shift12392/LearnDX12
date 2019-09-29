@@ -1,9 +1,11 @@
 ﻿// LearnDX12.cpp : 定义应用程序的入口点。
 //
 
-#include "stdafx.h"
+//#include "stdafx.h"
 #include "LearnDX12.h"
-#include <d3d12.h>
+#include "Common/D3DApp.h"
+
+
 
 #define MAX_LOADSTRING 100
 
@@ -27,6 +29,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(lpCmdLine);
 
     // TODO: 在此处放置代码。
+
+	D3DApp app(hInstance);
+	app.Initialize();
+
+
+
 
     // 初始化全局字符串
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
